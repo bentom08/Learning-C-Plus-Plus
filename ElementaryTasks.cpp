@@ -175,7 +175,7 @@ void setPrimeLimit()
 	printPrimes(n);
 }
 
-/* Task 8: Guessing game where user guesses a number and the program gives feedback on whether the number is too small or too large. When the number
+/* Task 9: Guessing game where user guesses a number and the program gives feedback on whether the number is too small or too large. When the number
  * is guessed correctly the program prints the number of guesses it took. Duplicate guesses are NOT counted to the final total.
  */
 
@@ -204,7 +204,7 @@ void guessingGame()
 	cout << "There were " << guessedNumbers.size() << " unique guesses";
 }
 
-// Task 9: Print the next 20 leap years (altered to print the next n leap years).
+// Task 10: Print the next 20 leap years (altered to print the next n leap years).
 void leapYears(int n)
 {
 	int leapYears[n] = {2020};
