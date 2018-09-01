@@ -12,7 +12,7 @@ using namespace std;
 // Task 1: Print "Hello World"
 void helloWorld()
 {
-	std::cout << "Hello World";
+	cout << "Hello World";
 }
 
 // Tasks 2 and 3: Name input + greeting message if name is correct
@@ -227,7 +227,5 @@ void leapYears(int n)
 
 int main()
 {
-	leapYears(100);
-
 	return 0;
 }
