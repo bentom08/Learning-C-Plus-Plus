@@ -199,7 +199,7 @@ void guessingGame()
 	}
 
 	sort(guessedNumbers.begin(), guessedNumbers.end()); // Sorts the vector
-	guessedNumbers.erase( unique( guessedNumbers.begin(), guessedNumbers.end()), guessedNumbers.end());
+	guessedNumbers.erase( unique( guessedNumbers.begin(), guessedNumbers.end()), guessedNumbers.end()); // deletes the non unique elements of the vector
 
 	cout << "There were " << guessedNumbers.size() << " unique guesses";
 }
